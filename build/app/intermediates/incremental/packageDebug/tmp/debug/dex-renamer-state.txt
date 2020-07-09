@@ -1,4 +1,4 @@
-#Wed Jul 08 21:13:07 IST 2020
+#Thu Jul 09 21:57:09 IST 2020
 base.0=C\:\\Users\\HP\\Desktop\\kiddo_stories\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
