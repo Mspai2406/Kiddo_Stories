@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:story/first.dart';
 import 'package:story/theantandgrasshopper.dart';
+import 'package:story/beautyandbeast.dart';
 
 void main() => runApp(
   MaterialApp(
@@ -119,7 +120,7 @@ class _MybodyState extends State<Mybody> {
                       InkWell(
                       onTap: () => {
                         Navigator.push(context, MaterialPageRoute(
-                          builder: (context)=>First(),))
+                          builder: (context)=>Beautyandbeast(),))
                       },
                     ),
                     ],
