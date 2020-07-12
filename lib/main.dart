@@ -1,9 +1,13 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:story/first.dart';
 import 'package:story/theantandgrasshopper.dart';
 import 'package:story/beautyandbeast.dart';
+import 'package:story/hungrycaterpillar.dart';
+import 'package:story/themagiclamp.dart';
+import 'package:story/cindrella.dart';
+import 'package:story/theboy.dart';
+import 'package:story/uglyduck.dart';
 
 void main() => runApp(
   MaterialApp(
@@ -28,15 +32,12 @@ class _HomepageState extends State<Homepage> {
         leading: Padding(
           padding: const EdgeInsets.only(left:8.0),
           child: CircleAvatar(
-          child: Text("KS",
-          style:TextStyle(fontSize: 20,
-          fontWeight:FontWeight.bold,
+            radius: 5,
+          backgroundImage:AssetImage("images/icon.png"),
+           
           ),
-          ), 
-          radius: 13, 
-          backgroundColor: Colors.orangeAccent,
           ),
-        ),
+        
         title: Text("KIDDO STORIES"),
         ),
          body:new Mybody(),
@@ -152,7 +153,7 @@ class _MybodyState extends State<Mybody> {
                       InkWell(
                       onTap: () => {
                         Navigator.push(context, MaterialPageRoute(
-                          builder: (context)=>First(),))
+                          builder: (context)=>Hungrycaterpillar(),))
                       },
                     ),
                     ],
@@ -186,7 +187,7 @@ class _MybodyState extends State<Mybody> {
                       InkWell(
                       onTap: () => {
                         Navigator.push(context, MaterialPageRoute(
-                          builder: (context)=>First(),))
+                          builder: (context)=>Themagiclamp(),))
                       },
                     ),
                     ],
@@ -219,7 +220,7 @@ class _MybodyState extends State<Mybody> {
                       InkWell(
                       onTap: () => {
                         Navigator.push(context, MaterialPageRoute(
-                          builder: (context)=>First(),))
+                          builder: (context)=>Cindrella(),))
                       },
                     ),
                     ],
@@ -253,7 +254,7 @@ class _MybodyState extends State<Mybody> {
                       InkWell(
                       onTap: () => {
                         Navigator.push(context, MaterialPageRoute(
-                          builder: (context)=>First(),))
+                          builder: (context)=>Theboy(),))
                       },
                     ),
                     ],
@@ -287,7 +288,7 @@ class _MybodyState extends State<Mybody> {
                       InkWell(
                       onTap: () => {
                         Navigator.push(context, MaterialPageRoute(
-                          builder: (context)=>First(),))
+                          builder: (context)=>Uglyduck(),))
                       },
                     ),
                     ],
